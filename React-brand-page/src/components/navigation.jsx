@@ -1,0 +1,18 @@
+const Navigation=()=>{
+    return (
+      <nav className="container">
+        <div className="logo">
+          <img src="https://static.lenskart.com/media/desktop/img/site-images/main_logo.svg" alt="brand_logo" />
+        </div>
+        <ul>
+          <li href="#">Menu</li>
+          <li href="#">Location</li>
+          <li href="#">About</li>
+          <li href="#">Contact</li>
+        </ul>
+
+        <button>Login</button>
+      </nav>
+    );
+}
+export default Navigation;
